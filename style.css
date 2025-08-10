@@ -1,0 +1,1225 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+}
+
+body {
+    background-color: black;
+}
+
+
+
+
+
+/* LAYOUT  */
+
+#navbar{
+
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+#logo{
+    position: relative;
+    left: 110px;
+    top: 20px;    
+}
+
+#navbar_logo{
+    height: 80px;
+    width: 170px;
+
+}
+
+#navbar_main_list{
+    display: flex;
+    align-items: flex-end;
+    font-size: 15;
+    font-family: sans-serif;
+    position: relative;
+    left: 500px;
+    bottom: 15px; 
+
+
+}
+
+.navbar_list{
+    display: flex;
+    color: white;
+    column-gap: 30px;
+
+
+} 
+#Home{
+    text-decoration: none;
+    color: white;
+
+ 
+}
+#About{
+  text-decoration: none;
+  color: white;  
+
+
+
+}
+#Publications{
+  text-decoration: none;
+  color: white;  
+
+} 
+
+#button_one{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    border: 2px solid white;
+    padding: 12px;
+    border-radius: 35px;
+}
+#button_two{
+    text-decoration: none;
+    background-color: rgb(231, 37, 37);
+    color: white;
+    margin: 20px;
+    border: 1px solid red;
+    padding: 20px;
+    border-radius: 35px;
+}
+#arrow{
+    background-color: white;
+    padding: 5px;
+    color: red;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+/*    NAVBAR CLOSING*/
+
+
+/*    BANNER OPENING*/
+#main_banner{
+
+    margin-top: 20px ;
+}
+
+#banner_image_two{
+
+}
+
+#banner_two{
+    height: 500px;
+    width: 100%;
+}
+
+/*    BANNER CLOSING*/
+
+/*    LAYOUT ONE OPENING*/
+
+#layout_one_main_div{
+    margin-top: 100px;
+}
+
+#headings{
+    color:white;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+    font-family: sans-serif;
+}
+
+
+#papers{
+    /* color: red; */
+  font-family: "Stardos Stencil", system-ui;
+
+
+
+}
+
+#heading_one{
+    font-size: 40px; 
+    margin: 10px;
+}
+#heading_two{
+    font-size: 30px;
+    margin: 10px;
+
+}
+#heading_three{
+    font-size: 15px;
+    color: gray;
+}
+
+
+#main_div_cards{
+    /* background-color: white; */
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    align-content: space-around;
+    column-gap: 10px;
+
+    /* align-items: center ; */
+    /* align-content: flex-start; */
+
+    
+}
+
+#card_one{
+
+}
+
+.card_iamges_clas{
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100px;
+    width: 200px;
+}
+
+
+#main_cards_buttons{
+}
+
+.cards_buttons{
+    text-decoration: none;
+    color: white;
+    border: 0.2px solid white;
+    margin-top: 150px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#card_button_1{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+#card_button_2{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}#card_button_3{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}#card_button_4{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+
+/*    LAYOUT ONE CLOSING*/
+
+
+
+/* LAYOUT TWO OPENING */
+
+#main_div_layout_two{
+    color: white;
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+#heading_1{
+    position: relative;
+    font-size: 65px;
+    margin-left: 500px;
+}
+
+#heading_2{
+    font-size: 65px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+
+#heading_3{
+    color: white;
+    color: grey;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+
+
+#layout_two_headings{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-right: 720px;
+    margin-left: 200px;
+    /* justify-content: center; */
+    column-gap: 50px;
+}
+
+
+#layout_two_iamge_islamabad{
+
+    display: flex;
+    margin-left: 700px;
+    /* margin-bottom: 00px; */
+    position: relative;
+    bottom: 150px;
+
+}
+
+#Islamabad{
+    color: red;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-left: -14px;
+}
+#location_islamabad{
+    color:darkgray;
+    position: relative;
+    left: -25px;
+    bottom: -20px;
+
+}
+
+#Islamabad_phone{
+    color:darkgray;
+    position: relative;
+    left: -25px;
+    bottom: -20px;
+}
+#Restaurant{
+    font-size: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    /* margin-left: -14px; */
+}
+
+
+/* sub layout three */
+#layout_three_iamge_rawalpindi{
+
+
+    margin-left: 150px;
+    position: relative;
+    top: -70px;
+    
+}
+
+#sub_layout_three_headings{
+    position: relative;
+    margin-left: 800px;
+    bottom: 280px;
+}
+
+
+#Faisalabad{
+    color: red;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#fasilabad_location{
+    /* margin-left: 10px; */
+    color: darkgray;
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+#fasilabad_kohinoor{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#layout_two_point_four_headings{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -50px;
+    margin-left: 150px;
+}
+
+#layout_image_four_bhawalpur{
+    display: flex;
+    position: relative;
+    margin-left: 700px;
+    bottom: 280px;
+}
+
+#Bahawalpur{
+    color: red;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+
+}
+
+/* LAYOUT TWO OPENING */
+
+
+
+/* <!-- LAYOUT FOUR OPENING --> */
+
+
+#layout_four_headings{
+    font-size: 40px;
+    color: white;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+#ayout_four_heading_two{
+    /* background-color: yellow; */
+    margin-top: 10px;
+    margin-left: -50px;
+    font: 80px;
+}
+
+
+/*    layout_four_card_one     */
+
+#layout_four_cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#layout_four_card_one{
+    /* border: 1px solid lime;
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; */
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#sargodha{
+    color: red;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+
+#layout_four_card_one_heading_two{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#layout_four_card_one_heading_three{
+    color:darkgray;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#location{
+    position: relative;
+    top: 17px;
+    color: darkgray;
+
+}
+
+#phone{
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    left: 70px;
+    color: darkgray;
+}
+
+#layout_four_card_one_heading_four{
+    color:darkgray;
+    margin-bottom: 70px;
+    margin-left: 90px;
+
+}
+
+
+#layout_four_card_one_button_one{
+
+    text-decoration: none;
+    color: white;
+    border: 0.3px solid white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.3px solid white;
+    border-radius: 25px;
+}
+
+#arrow_square{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    padding-left: 5px;
+    color: red;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 60%;
+}
+
+
+
+
+
+/*    layout_four_card_two   */
+
+#layout_four_card_two_image{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    height: auto;
+    color:white;
+    width: 400px;
+    /* margin-left: 100px; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    /* border: 1px solid white;
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 25px;
+    margin-right: 25px; */
+}
+
+#Jhelum{
+    color: red;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+
+#layout_four_card_two_heading_two{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#layout_four_card_two_heading_three{
+    color:darkgray;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#layout_four_card_two_heading_four{
+    color:darkgray;
+    margin-bottom: 70px;
+    margin-left: 90px;
+
+}
+
+
+
+/*    layout_four_card_three   */
+
+#layout_four_card_three_image{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Faisal_Town{
+    color: red;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+
+#layout_four_card_three_heading_two{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#layout_four_card_three_heading_three{
+    color:darkgray;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#layout_four_card_three_heading_four{
+    color:darkgray;
+    margin-bottom: 70px;
+    margin-left: 90px;
+
+}
+
+
+/*    layout_four_card_four   */
+
+#layout_four_card_four_image{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#DHA{
+    color: red;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+
+#layout_four_card_four_heading_two{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#layout_four_card_four_heading_three{
+    color:darkgray;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#layout_four_card_four_heading_four{
+    color:darkgray;
+    margin-bottom: 70px;
+    margin-left: 90px;
+
+}
+
+
+
+
+/*    layout_four_card_five   */
+
+#layout_four_card_five_image{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Bahria_Town{
+    color: red;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+
+#layout_four_card_five_heading_two{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#layout_four_card_five_heading_three{
+    color:darkgray;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#layout_four_card_five_heading_four{
+    color:darkgray;
+    margin-bottom: 70px;
+    margin-left: 90px;
+
+}
+
+
+
+
+/*    layout_four_card_six   */
+
+#layout_four_card_six_image{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Gujar_Khan{
+    color: red;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+
+#layout_four_card_six_heading_two{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#layout_four_card_six_heading_three{
+    color:darkgray;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#layout_four_card_six_heading_four{
+    color:darkgray;
+    margin-bottom: 70px;
+    margin-left: 90px;
+
+}
+
+
+
+
+/*    layout_four_card_seven   */
+
+#layout_four_card_seven_image{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#layout_four_card_seven_image_four{
+    height: 258px;
+    width: 355px;
+}
+
+#Lahore{
+    color: red;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+
+#layout_four_card_seven_heading_two{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#layout_four_card_seven_heading_three{
+    color:darkgray;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#layout_four_card_seven_heading_four{
+    color:darkgray;
+    margin-bottom: 70px;
+    margin-left: 90px;
+
+}
+
+
+
+/*    layout_four_card_eight   */
+
+#layout_four_card_eight_image{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#layout_four_card_eight_image_four{
+    height: 258px;
+    width: 355px;
+}
+
+#Gujrat{
+    color: red;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+
+#layout_four_card_eight_heading_two{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#layout_four_card_eight_heading_three{
+    color:darkgray;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#layout_four_card_eight_heading_four{
+    color:darkgray;
+    margin-bottom: 70px;
+    margin-left: 90px;
+
+}
+
+
+
+/*    layout_four_card_nine  */
+
+#layout_four_card_nine_image{
+
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid lime; */
+    height: auto;
+    color:white;
+    width: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#layout_four_card_nine_image_four{
+    height: 258px;
+    width: 355px;
+}
+
+#Sahiwal{
+    color: red;
+    letter-spacing: 5px;
+    padding: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+
+#layout_four_card_nine_heading_two{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#layout_four_card_nine_heading_three{
+    color:darkgray;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#layout_four_card_nine_heading_four{
+    color:darkgray;
+    margin-bottom: 70px;
+    margin-left: 90px;
+
+}
+/* <!-- LAYOUT FOUR CLOSING --> */
+
+
+
+/* <!-- LAYOUT Five CLOSING --> */
+
+
+#main_div_layout_five{
+
+
+}
+
+#layout_five_iamge_one{
+    height: 380px;
+    width: 650px;
+}
+
+/* #layout_five_headings{
+    color: white;
+} */
+
+#five_layout_three_headings{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    margin-left: 720px;
+    bottom: 220px;
+}
+
+#five_layout_four_headings{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#GUJRANWALA{
+    color: red;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#layout_five_iamge{
+
+    position: relative;
+    margin-left: 20px;
+    top: 90px;
+    
+}
+
+#layout_five_card_main_button{
+    /* height: 120px; */
+    /* background-color: yellow; */
+}
+
+
+#layout_five_card_button{
+
+    background-color: rgb(17, 136, 17);
+    font-size:large;
+    height: 70px;
+    width: 20px;
+    text-decoration: none;
+    color: white;
+    border: 0.3px solid rgb(17, 136, 17);
+    border-radius: 40px;
+    position: relative;
+    padding: 15px;
+    left: 720px;
+    bottom: 150px;
+}
+
+#layout_five_arrow_square{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    padding-left: 5px;
+    color: red;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 60%;
+}
+
+
+/* <!-- LAYOUT Five CLOSING --> */
+
+
+/* <!-- LAYOUT SIX OPENING --> */
+
+#main_div_layout_six{
+    background-color: black;
+}
+
+#layout_six_heading_1{
+    position: relative;
+    font-size: 65px;
+    margin-left: 500px;
+}
+
+#layout_six_heading_2{
+    font-size: 60px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+#Opening_Soon{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+#location_six{
+    margin-top: 25px;
+    background-color: lightgray;
+    padding: 10px;
+    height: 28px;
+    border-radius: 50%;
+    color:rgba(255, 0, 0, 0.596);
+    font-size: 25px;
+}
+
+#main_div_layout_six_cards{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+#layout_six_card_one{
+    border: 1px solid green;
+
+    height: 250px;
+    width: 350px;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#layout_six_card_one_heading_one{
+
+    margin-top: 20px;
+    color:red;
+    letter-spacing: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+#layout_six_card_one_heading_two{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+#layout_six_card_one_heading_three{
+    font-size: 20px;
+    margin-bottom: -15px;
+    padding-bottom: 20px;
+}
+
+#paper_five{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#layout_six_last_heading{
+
+    margin-top: 150px;
+    display: flex;
+    font-size: 50px;
+    color: white;
+
+    justify-content: center;
+}
+/* <!-- LAYOUT SIX CLOSING --> */
+
+
+#mian_footer{
+    background-color: rgb(34, 33, 33);
+    height: 550px;
+}
+
+#layout_one_footer_iamge{
+    height: 100px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#layout_one_footer_paragragh{
+    height: 100px;
+    width: 320px;
+    color:darkgray  ;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+#layout_one_footer_paragragh_two{
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+#layout_two_footer{
+    margin-left: 500px;
+    color: white;
+    margin-top: -200px;
+    /* background-color: yellow; */
+
+}
+
+#footer_list_one{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.footer_list_sub{
+    color:darkgray;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+#layout_three_footer{
+    margin-left: 700px;
+    color: white;
+    margin-top: -270px;
+}
+
+#Contact_Us_footer{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#Head_office_Address_footer{
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+#sub_Garde_Town_footer{
+    margin-bottom: 20px;
+    color: darkgray;
+}
+
+#sub_Garde_Town_footer_last{
+    margin-bottom: 20px;
+    color: darkgray;
+}
+
+
+#layout_four_footer{
+    margin-left: 1100px;
+    margin-top: -455px;
+    color: white;
+    font-size: 20px;
+
+}
+
+#layout_four_footer_heading{
+    margin-bottom: 20px;
+    
+}
+
+#layout_footer_font_main{
+    padding: 25px;
+}
+
+#layout_footer_font{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#app_store{
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+
+}
+
+#google_play{
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+#footer_powerd{
+    display: flex;
+    height: 30px;
+}
+#Snp_Main{
+    margin-left: 80px;
+    position: relative;
+    top: 15px;
+    color:white;
+    font-weight: bold;
+
+}
+
+#Powered{
+    position: relative;
+    top: 15px;
+    margin-left: 900px;
+    color:white;
+    font-weight: bold;
+
+}
+
+/* #layout_footer_one{
+    background-color: red;
+} */
