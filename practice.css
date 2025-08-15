@@ -103,7 +103,7 @@ html, body{
 /*    BANNER OPENING*/
 #main_banner{
 
-    margin-top: 20px ;
+    margin-top: 1% ;
 }
 
 #banner_image_two{
@@ -111,7 +111,7 @@ html, body{
 }
 
 #banner_two{
-    height: 500px;
+    height: auto;
     width: 100%;
 }
 
@@ -120,7 +120,7 @@ html, body{
 /*    LAYOUT ONE OPENING*/
 
 #layout_one_main_div{
-    margin-top: 100px;
+    margin-top: 8%;
 }
 
 #headings{
@@ -142,7 +142,7 @@ html, body{
 }
 
 #heading_one{
-    font-size: 40px; 
+    font-size: 40px;
     margin: 10px;
 }
 #heading_two{
@@ -158,9 +158,10 @@ html, body{
 
 #main_div_cards{
     /* background-color: white; */
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-top: 10%;
+    margin-left: 4%;
     display: flex;
+    /* justify-content: center; */
     align-content: space-around;
     column-gap: 10px;
 
@@ -171,7 +172,7 @@ html, body{
 }
 
 #card_one{
-
+    margin-bottom: 5%;
 }
 
 .card_iamges_clas{
