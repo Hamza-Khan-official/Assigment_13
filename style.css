@@ -7,6 +7,7 @@
 
 html, body{
   background: #000;  /* taake canvas bhi black ho */
+  font-family: sans-serif;
 }
 
 
@@ -170,10 +171,6 @@ html, body{
     
 }
 
-#card_one{
-
-}
-
 .card_iamges_clas{
     background-color: white;
     border: 1px solid white;
@@ -186,6 +183,8 @@ html, body{
 
 #main_cards_buttons{
 }
+
+
 
 .cards_buttons{
     text-decoration: none;
@@ -204,6 +203,31 @@ html, body{
     top: 30px;
     left: 40px;
 }
+
+.cards_buttons:hover{
+    border: 1px solid wheat;
+
+}
+
+#card_two:hover {
+  transform: scale(1.05);
+  animation-delay: 5.2s;
+}
+#card_one:hover{
+  transform: scale(1.05);
+}
+#card_three:hover {
+  transform: scale(1.05);
+}
+#card_four:hover {
+  transform: scale(1.05);
+}
+
+#main_div_cards{
+    transition: transform 0.7s ease-in-out 0.5s;
+
+}
+
 #card_button_2{
     position: relative;
     top: 30px;
@@ -211,7 +235,7 @@ html, body{
 }#card_button_3{
     position: relative;
     top: 30px;
-    left: 40px;
+    left: 25px;
 }#card_button_4{
     position: relative;
     top: 30px;
@@ -1317,6 +1341,12 @@ html, body{
         height: auto;
         width: 100%;
         justify-content: flex-start;        
+    }
+    #mian_footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
     }
 
 
