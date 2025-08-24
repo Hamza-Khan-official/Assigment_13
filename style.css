@@ -159,11 +159,22 @@ html, body{
 
 #main_div_cards{
     /* background-color: white; */
-    margin-top: 50px;
+
+
+    /* margin-top: 50px;
     margin-left: 30px;
     display: flex;
     align-content: space-around;
+    column-gap: 10px; */
+
+    margin-top: 5%;
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     column-gap: 10px;
+    row-gap: 60px;
+
 
     /* align-items: center ; */
     /* align-content: flex-start; */
@@ -1294,12 +1305,12 @@ html, body{
         font-size: 10px;
     }
 
-    #main_div_cards{
+    /* #main_div_cards{
         display: flex;
         flex-direction: column;        
         height: auto;
         width: 100%;
-    }
+    } */
     /* #card_button_1{
         display: flex;
         align-content: flex-start;
